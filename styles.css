@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Roboto|Bungee+Hairline');
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #000;
+}
+body,
+p,
+li,
+div,
+i {
+  color: #ace;
+}
+header {
+  margin-top: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 2em;
+  font-family: 'Bungee Hairline';
+  color: #def;
+}
+h1 {
+  font-size: 80px;
+  margin: auto;
+}
+.btn {
+  text-decoration: none;
+  border-radius: 3px;
+  background: #222;
+  color: #eee;
+  padding: 10px 20px;
+}
+.btn-sm {
+  padding: 5px 10px;
+}
+input {
+  color: inherit;
+  outline: none;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+#inputs {
+  margin-bottom: 2em;
+}
+#outputs {
+  display: flex;
+  justify-content: center;
+}
+#results {
+  white-space: pre;
+  text-align: left;
+  width: 15em;
+}
+#number {
+  margin: 0 5em;
+}
+
+#seed {
+  border: 0;
+  width: 30em;
+  height: 2em;
+  padding: 10px;
+}
+a {
+  color: #def;
+}
+::selection {
+  color: #0ff;
+}
+hr {
+  margin: 3em 0;
+  border: 1px solid #abc;
+}
